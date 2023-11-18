@@ -1,0 +1,65 @@
+IT22144126
+M.M.A.P.S.ABHAYAWARDHANE (Project Group Leader)
+Project Group: SE/OOP/2023/S2/MLB/WD/G159
+Group: 12.02
+
+
+I have made the following contributions,
+
+1) Developed the entire Manager System
+2) Developed the entire Buyer System
+3) Developed the entire Login System
+4) Created the frontend & the UI of the web app completely along with the CSS Part
+5) Planned the whole system and criteria
+6) Inspected group members and supported them in doing their part
+
+
+
+-----------------------------------------
+       JSP and Relevant Servlets
+-----------------------------------------
+
+Login,
+1) login.jsp - LoginServlet.java (login according to the role, login validation & session creation)
+
+
+Buyer,
+1) productcat.jsp  (R)     -   ProductCatalog.java(R)
+2) checkout.jsp    (C/R)   -   CheckoutServlet.java(R), BuyerOrderServlet.java(C)
+3) myorders.jsp    (R/U)   -   BuyerOrderView.java(R), CancelBuyerOrder.java(U)
+4) feedback.jsp    (C/R/D) -   FeedbackServlet.java(C/R), FeedbackDelete.java(D)
+
+
+Manager,
+1) buyerorders.jsp       (R/U)   -   ManageBuyerOrder.java(R), EditBuyerOrderStatus.java(U)
+2) manageprod.jsp        (C/R/D) -   ProductViewServlet.java(R), ProductInsert.java(C), ProductDelete(D)
+3) productedit.jsp       (R/U)   -   ProductEdit.java(R), UpdateProduct.java(U)
+4) productinsert.jsp     (C)     -   ProductInsert.java(C)
+5) stockavailability.jsp (R)     -   StockAvailability.java(R)
+6) stockorders.jsp       (R/U)   -   ManageStockOrder.java(R), EditStockOrderStatus.java(U)
+
+
+Additional,
+1) DBConnect.java (Database connectivity)
+2) LogoutServlet.java (logout & session destruction)
+
+
+* ( C - Create, R - Retrieve, U - Update, D - Delete )
+
+
+-----------------------------------------
+             Java Classes
+-----------------------------------------
+
+com.product,
+1) Product.java
+2) ProductDBUtil.java
+
+com,order,
+1) Order.java
+2) BuyerOrder.java
+
+com,feedback,
+1) Feedback.java
+2) FeedbackDBUtil.java
+
